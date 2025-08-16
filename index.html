@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textpad Panel</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Icons for Button Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <div class="top-left">Textpad</div>
+    <div id="file-name" class="file-name">jenish.aep</div>
+  </header>
+  <!-- Text Area -->
+  <main>
+    <textarea id="text-area" placeholder="Write or paste your text here..."></textarea>
+  </main>
+  <!-- Bottom Buttons -->
+  <footer class="button-bar">
+    <button class="panel-button" id="import-btn">
+      <i class="fa-solid fa-folder-open"></i>
+      <span class="btn-text">Import</span>
+    </button>
+    <button class="panel-button" id="save-btn">
+      <i class="fa-solid fa-floppy-disk"></i>
+      <span class="btn-text">Save</span>
+    </button>
+    <button class="panel-button" id="copy-btn">
+      <i class="fa-solid fa-copy"></i>
+      <span class="btn-text">Copy</span>
+    </button>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
